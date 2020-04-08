@@ -73,7 +73,7 @@ return items
         }
 
 
-    }
+    
     /*if (i + 1 === length) {
       carts = carts + `${item} at $${price}.`
     return carts

@@ -54,9 +54,9 @@ var length = cart.length
 
           return carts + item + " at " + "$" + price + "."
 }        else if (length === 2) {
-debugger
-          itemTwo = " and " + cart[i+1].itemName + " at " + "$" + cart[i+1].itemPrice
-console.log(item, "string")
+debugger itemOne = cart[0]
+itemTwo = cart[1]
+          var sentence =  itemOne.itemName + "at" + "$" + itemOne.price + ", and " + itemOne.itemName + " at " + "$" + itemTwo.price + "."
           return carts + item + " at " + "$" + price + "," + itemTwo + "."
         }
 

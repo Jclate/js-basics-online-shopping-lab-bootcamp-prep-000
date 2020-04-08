@@ -67,7 +67,7 @@ itemTwo = cart[1]
             item = cart[i].itemName
             price = cart[i].itemPrice
             items += item + " at " + "$" + price
-
+            if (length - 1 === i)
 
           }
           return items

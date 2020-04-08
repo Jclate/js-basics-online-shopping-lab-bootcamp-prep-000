@@ -128,7 +128,7 @@ function total() {
 total()
 function removeFromCart(item) {
 for (var i = 0; i < cart.length; i++) {
-  delete cart[i]
+  delete cart[i].itemName
 }
 
 }

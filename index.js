@@ -74,7 +74,7 @@ return items
         return carts + items +"."
         }
 
-
+viewCart()
 
     /*if (i + 1 === length) {
       carts = carts + `${item} at $${price}.`

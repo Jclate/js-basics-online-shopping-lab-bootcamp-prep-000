@@ -66,7 +66,7 @@ itemTwo = cart[1]
             cart[i]
             if (length - 1 === i) {
               items = items + ", and" item + " at " + "$" + price + "."
-              return items
+              return carts + items
             }
             item = cart[i].itemName
             price = cart[i].itemPrice
@@ -78,7 +78,7 @@ itemTwo = cart[1]
 //debugger
 
         }
-        return carts + items +"."
+        //return carts + items +"."
         }
 
 viewCart()

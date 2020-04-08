@@ -39,7 +39,7 @@ function addToCart(item) {
 function viewCart() {
 
 var carts = "In your cart, you have "
-var items
+var items = ""
 var item
 var price
 var itemOne
@@ -67,6 +67,7 @@ itemTwo = cart[1]
             item = cart[i].itemName
             price = cart[i].itemPrice
             items = item + " at " + "$" + price
+
 
           }
 return items

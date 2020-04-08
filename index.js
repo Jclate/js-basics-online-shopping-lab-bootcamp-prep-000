@@ -145,7 +145,7 @@ function placeOrder(cardNumber) {
 var price
 var totals
   if (cardNumber) {
-
+    total()
     for (var i = 0; i < cart.length; i++) {
       price = cart.itemPrice
       totals = total + price

@@ -66,7 +66,7 @@ itemTwo = cart[1]
             //cart[i]
             if (length - 1 === i) {
 
-              items = items + ", and" + item + " at " + "$" + price + "."
+              items = items + "and " + item + " at " + "$" + price + "."
               return carts + items
             }
             item = cart[i].itemName

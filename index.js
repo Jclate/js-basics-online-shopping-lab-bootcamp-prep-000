@@ -147,7 +147,7 @@ var totalz
   if (cardNumber) {
     total()
     for (var i = 0; i < cart.length; i++) {
-      price = cart.itemPrice
+      price = cart[i].itemPrice
       totalz = totalz + price
       debugger
     //delete cart[i]

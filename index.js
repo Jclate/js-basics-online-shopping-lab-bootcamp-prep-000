@@ -69,7 +69,7 @@ var length = cart.length
             items = item + " at " + "$" + price
             return items
           }
-
+          debugger
         }
         }
         return carts + items +"."

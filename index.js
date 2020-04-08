@@ -46,18 +46,13 @@ var itemTwo
 var length = cart.length
   if (cart.length === 0) {
     return "Your shopping cart is empty."
-  }
-
-  else {
-    for (var i = 0; i < cart.length; i++) {
-      if (length === 1) {
-        item = cart[i].itemName
-        price = cart[i].itemPrice
+  }else if  (length === 1) {
+        item = cart[0].itemName
+        price = cart[0].itemPrice
         items = carts + item + " at " + "$" + price
 
           return carts + item + " at " + "$" + price + "."
-        }
-        if (length === 2) {
+}        else if (length === 2) {
           itemTwo = " and " + cart[i+1].itemName + " at " + "$" + cart[i+1].itemPrice
           return carts + item + " at " + "$" + price + "," + itemTwo + "."
         }

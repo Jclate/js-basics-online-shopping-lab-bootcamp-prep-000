@@ -66,7 +66,7 @@ var length = cart.length
 
           }
 return items
-debugger
+//debugger
 
         }
         }

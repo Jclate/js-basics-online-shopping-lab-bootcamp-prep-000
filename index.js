@@ -62,6 +62,7 @@ var length = cart.length
         }
 
         if (length > 2) {
+          debugger
           items = item + " at " + "$" + price
         }
         }

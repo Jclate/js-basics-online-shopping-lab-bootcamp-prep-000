@@ -67,10 +67,11 @@ var length = cart.length
             item = cart[i].itemName
             price = cart[i].itemPrice
             items = item + " at " + "$" + price
-debugger
-            return items
-          }
 
+          }
+return items
+debugger
+          
         }
         }
         return carts + items +"."

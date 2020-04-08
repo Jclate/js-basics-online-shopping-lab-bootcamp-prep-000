@@ -71,7 +71,7 @@ itemTwo = cart[1]
             }
             item = cart[i].itemName
             price = cart[i].itemPrice
-            items += item + " at " + "$" + price + ","
+            items += item + " at " + "$" + price + ", "
 
           }
           }

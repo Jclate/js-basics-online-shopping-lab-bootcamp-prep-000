@@ -143,7 +143,7 @@ if (item === cart[i].itemName) {
 }
 function placeOrder(cardNumber) {
 var price
-var totalz
+var totalz = 0
   if (cardNumber) {
     total()
     for (var i = 0; i < cart.length; i++) {

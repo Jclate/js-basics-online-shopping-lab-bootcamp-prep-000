@@ -143,12 +143,12 @@ if (item === cart[i].itemName) {
 }
 function placeOrder(cardNumber) {
 var price
-var total
+var totals
   if (cardNumber) {
 
     for (var i = 0; i < cart.length; i++) {
       price = cart.itemPrice
-      total = total + price
+      totals = total + price
     delete cart[i]
     }
 

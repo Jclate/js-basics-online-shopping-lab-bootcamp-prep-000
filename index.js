@@ -136,7 +136,7 @@ if (item === cart[i].itemName) {
 return cart
 
 }
-  return 'That item is not in your cart.'
+  //return 'That item is not in your cart.'
 
 
 }

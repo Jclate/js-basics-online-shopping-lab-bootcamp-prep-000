@@ -150,7 +150,7 @@ var totalz = 0
       price = cart[i].itemPrice
       totalz = totalz + price
       debugger
-    //delete cart[i]
+    delete cart[i]
     }
 
     return `Your total cost is ${totals}, which will be charged to the card ${cardNumber}`

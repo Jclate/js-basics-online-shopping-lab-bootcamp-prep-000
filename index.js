@@ -152,7 +152,7 @@ var totalz = 0
       //debugger
     delete cart[i]
     }
-
+    cart = []
     return `Your total cost is $${totalz}, which will be charged to the card ${cardNumber}.`
   }
   else {

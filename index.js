@@ -127,7 +127,10 @@ function total() {
 }
 total()
 function removeFromCart(item) {
-  delete cart.item
+for (var i = 0; i < cart.length; i++) {
+  delete cart[i].item
+}
+
 }
 
 function placeOrder(cardNumber) {

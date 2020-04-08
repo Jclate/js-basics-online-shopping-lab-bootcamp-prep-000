@@ -149,7 +149,7 @@ var totals
     for (var i = 0; i < cart.length; i++) {
       price = cart.itemPrice
       totals = total + price
-    delete cart[i]
+    //delete cart[i]
     }
 
     return `Your total cost is ${price}, which will be charged to the card ${cardNumber}`

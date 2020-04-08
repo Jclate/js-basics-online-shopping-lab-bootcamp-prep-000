@@ -57,7 +57,7 @@ var length = cart.length
           return carts + item + " at " + "$" + price + "," + itemTwo + "."
         }
 
-        if (length > 2) {
+        else if (length > 2) {
           for (var i = 0; i < cart.length; i++) {
             cart[i]
             item = cart[i].itemName
@@ -69,8 +69,9 @@ return items
 //debugger
 
         }
-        }
         return carts + items +"."
+        }
+
       }
     }
     /*if (i + 1 === length) {

@@ -54,8 +54,9 @@ var length = cart.length
 
           return carts + item + " at " + "$" + price + "."
 }        else if (length === 2) {
-          itemTwo = " and " + cart[i+1].itemName + " at " + "$" + cart[i+1].itemPrice
 debugger
+          itemTwo = " and " + cart[i+1].itemName + " at " + "$" + cart[i+1].itemPrice
+console.log(item, "string")
           return carts + item + " at " + "$" + price + "," + itemTwo + "."
         }
 

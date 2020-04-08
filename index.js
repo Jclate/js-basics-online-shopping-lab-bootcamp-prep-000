@@ -37,6 +37,7 @@ function addToCart(item) {
 }
 //addToCart()
 function viewCart() {
+
 var carts = "In your cart, you have "
 var items
 var item
@@ -46,7 +47,7 @@ var itemTwo
 var length = cart.length
   if (cart.length === 0) {
     return "Your shopping cart is empty."
-  }else if  (length === 1) {
+}     else if  (length === 1) {
         item = cart[0].itemName
         price = cart[0].itemPrice
         items = carts + item + " at " + "$" + price
@@ -54,6 +55,7 @@ var length = cart.length
           return carts + item + " at " + "$" + price + "."
 }        else if (length === 2) {
           itemTwo = " and " + cart[i+1].itemName + " at " + "$" + cart[i+1].itemPrice
+debugger
           return carts + item + " at " + "$" + price + "," + itemTwo + "."
         }
 
@@ -73,7 +75,7 @@ return items
         }
 
 
-    
+
     /*if (i + 1 === length) {
       carts = carts + `${item} at $${price}.`
     return carts

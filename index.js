@@ -146,7 +146,9 @@ function placeOrder(cardNumber) {
     delete cart
     return "Your total cost is $71, which will be charged to the card 83296759"
   }
-
+  else {
+    "Sorry, we don't have a credit card on file for you.."
+  }
 
   // write your code here
 }

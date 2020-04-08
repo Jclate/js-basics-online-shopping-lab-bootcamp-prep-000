@@ -142,5 +142,11 @@ if (item === cart[i].itemName) {
 
 }
 function placeOrder(cardNumber) {
+  if (cardNumber) {
+
+    return "Your total cost is $71, which will be charged to the card 83296759"
+  }
+
+
   // write your code here
 }

@@ -69,7 +69,6 @@ itemTwo = cart[1]
               items = items + ", and" + item + " at " + "$" + price + "."
               return carts + items
             }
-debugger
             item = cart[i].itemName
             price = cart[i].itemPrice
             items += item + " at " + "$" + price

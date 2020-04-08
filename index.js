@@ -148,7 +148,7 @@ var totalz
     total()
     for (var i = 0; i < cart.length; i++) {
       price = cart.itemPrice
-      totalz = totals + price
+      totalz = totalz + price
       debugger
     //delete cart[i]
     }

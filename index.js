@@ -132,7 +132,7 @@ if (item === cart[i].itemName) {
   delete cart[i].itemName
 }
 }
-
+return cart
 }
 
 function placeOrder(cardNumber) {

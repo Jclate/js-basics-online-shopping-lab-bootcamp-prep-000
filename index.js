@@ -38,7 +38,7 @@ function addToCart(item) {
 //addToCart()
 function viewCart() {
 
-var carts = "In your cart, you have, "
+var carts = "In your cart, you have "
 var items
 var item
 var price

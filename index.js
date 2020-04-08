@@ -64,13 +64,17 @@ itemTwo = cart[1]
         else if (length > 2) {
           for (var i = 0; i < cart.length; i++) {
             cart[i]
+            if (length - 1 === i) {
+              items = items + ", and" item + " at " + "$" + price + "."
+              return items
+            }
             item = cart[i].itemName
             price = cart[i].itemPrice
             items += item + " at " + "$" + price
-            if (length - 1 === i)
+
 
           }
-          return items
+
 //debugger
 
         }

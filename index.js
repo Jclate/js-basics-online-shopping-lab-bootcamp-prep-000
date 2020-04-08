@@ -62,8 +62,14 @@ var length = cart.length
         }
 
         if (length > 2) {
-          debugger
-          items = item + " at " + "$" + price
+          for (var i = 0; i < cart.length; i++) {
+            cart[i]
+            item = cart[i].itemName
+            price = cart[i].itemPrice
+            items = item + " at " + "$" + price
+            return items
+          }
+
         }
         }
         return carts + items +"."

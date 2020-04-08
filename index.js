@@ -50,10 +50,11 @@ var length = cart.length
 
   else {
     for (var i = 0; i < cart.length; i++) {
+      if (length === 1) {
         item = cart[i].itemName
         price = cart[i].itemPrice
         items = carts + item + " at " + "$" + price
-        if (length === 1) {
+
           return carts + item + " at " + "$" + price + "."
         }
         if (length === 2) {
@@ -71,7 +72,7 @@ var length = cart.length
           }
 return items
 debugger
-          
+
         }
         }
         return carts + items +"."

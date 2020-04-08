@@ -143,7 +143,10 @@ if (item === cart[i].itemName) {
 }
 function placeOrder(cardNumber) {
   if (cardNumber) {
-    delete cart
+    for (var i = 0; i < cart.length; i++) {
+    delete cart[i]
+    }
+
     return "Your total cost is $71, which will be charged to the card 83296759"
   }
   else {
